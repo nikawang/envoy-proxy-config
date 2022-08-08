@@ -20,6 +20,7 @@ static_resources:
           stat_prefix: egress_redis
           settings:
             op_timeout: 5s
+            enable_redirection: true
           prefix_routes:
            routes:
              - prefix: "${PREFIX_STRING}"
